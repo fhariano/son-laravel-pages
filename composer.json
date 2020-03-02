@@ -9,5 +9,10 @@
     ],
     "require": {
         "fhariano/son-laravel-location": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Pages\\": "./"
+        }
     }
 }
